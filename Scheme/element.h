@@ -5,6 +5,7 @@
 
 class Element : public QObject
 {
+    Q_OBJECT
 public:
     Element(void) {};
     virtual ~Element() {};

@@ -1,6 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 #include "SCHEME_H.h"
+#include "Scheme/element.h"
 
 
 class Node : public Element
