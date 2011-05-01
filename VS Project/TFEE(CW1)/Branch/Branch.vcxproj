@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B580CB7E-824D-4877-8357-1B5B76D78C22}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Branch</RootNamespace>
+    <ProjectName>TFEE(CW1)</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgebraicOperationExeption.h" />
+    <ClInclude Include="Branch.h" />
+    <ClInclude Include="Capacity.h" />
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="FileExceptions.h" />
+    <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="HEAD.h" />
+    <ClInclude Include="Inductance.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatrixException.h" />
+    <ClInclude Include="MatrixIndexException.h" />
+    <ClInclude Include="MatrixSingularException.h" />
+    <ClInclude Include="MatrixSizeException.h" />
+    <ClInclude Include="MCC.h" />
+    <ClInclude Include="MKE.h" />
+    <ClInclude Include="MNP.h" />
+    <ClInclude Include="OpenFileException.h" />
+    <ClInclude Include="Resistor.h" />
+    <ClInclude Include="SourceCurrent.h" />
+    <ClInclude Include="SourceDC.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Tokenizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgebraicOperationExeption.cpp" />
+    <ClCompile Include="Branch.cpp" />
+    <ClCompile Include="Capacity.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Inductance.cpp" />
+    <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="MatrixIndexException.cpp" />
+    <ClCompile Include="MatrixSingularException.cpp" />
+    <ClCompile Include="MatrixSizeException.cpp" />
+    <ClCompile Include="MCC.cpp" />
+    <ClCompile Include="MKE.cpp" />
+    <ClCompile Include="MNP.cpp" />
+    <ClCompile Include="OpenFileException.cpp" />
+    <ClCompile Include="Resistor.cpp" />
+    <ClCompile Include="SourceCurrent.cpp" />
+    <ClCompile Include="SourceDC.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="part1.TXT" />
+    <None Include="part2.TXT" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

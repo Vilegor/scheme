@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{ee855342-6e47-4f44-aae9-fe62da6778ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{46a4c6c5-8314-42db-a8a8-99084a5480fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionSource">
+      <UniqueIdentifier>{26b23f08-1391-4a9d-a966-1d72eaad220b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements\ElementsH">
+      <UniqueIdentifier>{d6c40ec7-2f68-4ca4-abff-dc758083bd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements\ElementsSource">
+      <UniqueIdentifier>{68dcd9ee-45b6-44cc-80c2-8d47e3670b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculations">
+      <UniqueIdentifier>{f93bad92-954e-4dcf-98ba-e8da12d6db4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculations\CalculationsH">
+      <UniqueIdentifier>{b3240673-0f01-439d-a714-8bc699978878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculations\CalculationsSource">
+      <UniqueIdentifier>{4fceeac8-54c0-4c67-8e2c-f91d081dc584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructs">
+      <UniqueIdentifier>{43d684fa-c306-4880-bc58-715fbeae13a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructs\DataStructsH">
+      <UniqueIdentifier>{b3bbba3f-ad47-4722-8d2e-4391e55b0f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructs\DataStructsSource">
+      <UniqueIdentifier>{87abbae6-3815-4e0c-a25c-e526c198a08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionHeader">
+      <UniqueIdentifier>{d7ad09ef-a69b-4ed9-97a9-a394485a7950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionHeader\MatrixExceptions">
+      <UniqueIdentifier>{aca34ca0-105a-409c-b686-e92e72c4831d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionHeader\FileExceptions">
+      <UniqueIdentifier>{a160fa95-8ce4-48a1-a9dd-84746a5928e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionSource\MatrixExceptions">
+      <UniqueIdentifier>{07b51d6f-fe62-4284-86fe-b94729f669fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\ExceptionSource\FileExceptions">
+      <UniqueIdentifier>{9f0c4e83-c3cb-41c8-b94a-ae606f1ad6a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HEAD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Capacity.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceDC.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Inductance.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resistor.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCurrent.h">
+      <Filter>Elements\ElementsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Exceptions\ExceptionHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="MNP.h">
+      <Filter>Calculations\CalculationsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>DataStructs\DataStructsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Branch.h">
+      <Filter>DataStructs\DataStructsH</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>DataStructs\DataStructsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>DataStructs\DataStructsH</Filter>
+    </ClInclude>
+    <ClInclude Include="MCC.h">
+      <Filter>Calculations\CalculationsH</Filter>
+    </ClInclude>
+    <ClInclude Include="MKE.h">
+      <Filter>Calculations\CalculationsH</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgebraicOperationExeption.h">
+      <Filter>Exceptions\ExceptionHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixException.h">
+      <Filter>Exceptions\ExceptionHeader\MatrixExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixSingularException.h">
+      <Filter>Exceptions\ExceptionHeader\MatrixExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixSizeException.h">
+      <Filter>Exceptions\ExceptionHeader\MatrixExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixIndexException.h">
+      <Filter>Exceptions\ExceptionHeader\MatrixExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileExceptions.h">
+      <Filter>Exceptions\ExceptionHeader\FileExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenFileException.h">
+      <Filter>Exceptions\ExceptionHeader\FileExceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Capacity.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceDC.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Inductance.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resistor.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCurrent.cpp">
+      <Filter>Elements\ElementsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MNP.cpp">
+      <Filter>Calculations\CalculationsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Branch.cpp">
+      <Filter>DataStructs\DataStructsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>DataStructs\DataStructsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>DataStructs\DataStructsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>DataStructs\DataStructsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MCC.cpp">
+      <Filter>Calculations\CalculationsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MKE.cpp">
+      <Filter>Calculations\CalculationsSource</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgebraicOperationExeption.cpp">
+      <Filter>Exceptions\ExceptionSource</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFileException.cpp">
+      <Filter>Exceptions\ExceptionSource\FileExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixIndexException.cpp">
+      <Filter>Exceptions\ExceptionSource\MatrixExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixSingularException.cpp">
+      <Filter>Exceptions\ExceptionSource\MatrixExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixSizeException.cpp">
+      <Filter>Exceptions\ExceptionSource\MatrixExceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="part1.TXT">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="part2.TXT">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

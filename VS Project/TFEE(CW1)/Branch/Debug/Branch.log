@@ -1,0 +1,65 @@
+﻿Build started 13.03.2011 19:56:47.
+     1>Project "C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Branch\Branch.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TFEE(CW1).unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AlgebraicOperationExeption.cpp Branch.cpp Capacity.cpp Element.cpp FileReader.cpp Graph.cpp Inductance.cpp MAIN.cpp MatrixIndexException.cpp MatrixSingularException.cpp MatrixSizeException.cpp MCC.cpp MKE.cpp MNP.cpp OpenFileException.cpp Resistor.cpp SourceCurrent.cpp SourceDC.cpp Student.cpp Tokenizer.cpp
+         Tokenizer.cpp
+         Student.cpp
+         SourceDC.cpp
+         SourceCurrent.cpp
+         Resistor.cpp
+         OpenFileException.cpp
+         MNP.cpp
+         MKE.cpp
+         MCC.cpp
+         MatrixSizeException.cpp
+         MatrixSingularException.cpp
+         MatrixIndexException.cpp
+         MAIN.cpp
+         Inductance.cpp
+         Graph.cpp
+         FileReader.cpp
+         Element.cpp
+         Capacity.cpp
+         Branch.cpp
+         AlgebraicOperationExeption.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TFEE(CW1).exe.embed.manifest.res" "Debug\TFEE(CW1)_manifest.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Debug\TFEE(CW1).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TFEE(CW1).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Debug\TFEE(CW1).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Debug\TFEE(CW1).lib" /MACHINE:X86 "Debug\TFEE(CW1).exe.embed.manifest.res"
+         Debug\AlgebraicOperationExeption.obj
+         Debug\Branch.obj
+         Debug\Capacity.obj
+         Debug\Element.obj
+         Debug\FileReader.obj
+         Debug\Graph.obj
+         Debug\Inductance.obj
+         Debug\MAIN.obj
+         Debug\MatrixIndexException.obj
+         Debug\MatrixSingularException.obj
+         Debug\MatrixSizeException.obj
+         Debug\MCC.obj
+         Debug\MKE.obj
+         Debug\MNP.obj
+         Debug\OpenFileException.obj
+         Debug\Resistor.obj
+         Debug\SourceCurrent.obj
+         Debug\SourceDC.obj
+         Debug\Student.obj
+         Debug\Tokenizer.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TFEE(CW1).exe.embed.manifest" /manifest "Debug\TFEE(CW1).exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Branch.vcxproj -> C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Debug\TFEE(CW1).exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TFEE(CW1).unsuccessfulbuild".
+         Touching "Debug\TFEE(CW1).lastbuildstate".
+     1>Done Building Project "C:\Users\i_r\Documents\Visual Studio 2010\Projects\TFEE(CW1)\TFEE(CW1)\Branch\Branch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.36
